@@ -5,26 +5,26 @@ import classes from './AvailableMeals.module.css';
 const DUMMY_MEALS = [
   {
     id: 'm1',
-    name: 'Sushi',
-    description: 'Finest fish and veggies',
+    name: 'סושי',
+    description: 'דגים וירקות משובחים',
     price: 22.99,
   },
   {
     id: 'm2',
-    name: 'Schnitzel',
-    description: 'A german specialty!',
+    name: 'שניצל',
+    description: 'התמחות ישראלית!',
     price: 16.5,
   },
   {
     id: 'm3',
-    name: 'Barbecue Burger',
-    description: 'American, raw, meaty',
+    name: 'ברביקיו בורגר',
+    description: 'ישראלי, נא, בשרני',
     price: 12.99,
   },
   {
     id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
+    name: 'קערה ירוקה',
+    description: 'בריא... וירוק...',
     price: 18.99,
   },
 ];
