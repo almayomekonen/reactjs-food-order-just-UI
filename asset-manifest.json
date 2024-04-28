@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactjs-food-order-just-UI/static/css/main.6e7610d3.chunk.css",
+    "main.js": "/reactjs-food-order-just-UI/static/js/main.3f79e94c.chunk.js",
+    "main.js.map": "/reactjs-food-order-just-UI/static/js/main.3f79e94c.chunk.js.map",
+    "runtime-main.js": "/reactjs-food-order-just-UI/static/js/runtime-main.df42ddf6.js",
+    "runtime-main.js.map": "/reactjs-food-order-just-UI/static/js/runtime-main.df42ddf6.js.map",
+    "static/js/2.abeaa027.chunk.js": "/reactjs-food-order-just-UI/static/js/2.abeaa027.chunk.js",
+    "static/js/2.abeaa027.chunk.js.map": "/reactjs-food-order-just-UI/static/js/2.abeaa027.chunk.js.map",
+    "index.html": "/reactjs-food-order-just-UI/index.html",
+    "static/css/main.6e7610d3.chunk.css.map": "/reactjs-food-order-just-UI/static/css/main.6e7610d3.chunk.css.map",
+    "static/js/2.abeaa027.chunk.js.LICENSE.txt": "/reactjs-food-order-just-UI/static/js/2.abeaa027.chunk.js.LICENSE.txt",
+    "static/media/injera.532792a6.avif": "/reactjs-food-order-just-UI/static/media/injera.532792a6.avif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df42ddf6.js",
+    "static/js/2.abeaa027.chunk.js",
+    "static/css/main.6e7610d3.chunk.css",
+    "static/js/main.3f79e94c.chunk.js"
+  ]
+}
