@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactjs-food-order-just-UI/static/css/main.b5701116.chunk.css",
-    "main.js": "/reactjs-food-order-just-UI/static/js/main.aafb9d92.chunk.js",
-    "main.js.map": "/reactjs-food-order-just-UI/static/js/main.aafb9d92.chunk.js.map",
-    "runtime-main.js": "/reactjs-food-order-just-UI/static/js/runtime-main.df42ddf6.js",
-    "runtime-main.js.map": "/reactjs-food-order-just-UI/static/js/runtime-main.df42ddf6.js.map",
-    "static/js/2.1e8de4ec.chunk.js": "/reactjs-food-order-just-UI/static/js/2.1e8de4ec.chunk.js",
-    "static/js/2.1e8de4ec.chunk.js.map": "/reactjs-food-order-just-UI/static/js/2.1e8de4ec.chunk.js.map",
+    "main.js": "/reactjs-food-order-just-UI/static/js/main.9dfdede2.chunk.js",
+    "main.js.map": "/reactjs-food-order-just-UI/static/js/main.9dfdede2.chunk.js.map",
+    "runtime-main.js": "/reactjs-food-order-just-UI/static/js/runtime-main.424ebaa1.js",
+    "runtime-main.js.map": "/reactjs-food-order-just-UI/static/js/runtime-main.424ebaa1.js.map",
+    "static/js/2.11b1d135.chunk.js": "/reactjs-food-order-just-UI/static/js/2.11b1d135.chunk.js",
+    "static/js/2.11b1d135.chunk.js.map": "/reactjs-food-order-just-UI/static/js/2.11b1d135.chunk.js.map",
     "index.html": "/reactjs-food-order-just-UI/index.html",
     "static/css/main.b5701116.chunk.css.map": "/reactjs-food-order-just-UI/static/css/main.b5701116.chunk.css.map",
-    "static/js/2.1e8de4ec.chunk.js.LICENSE.txt": "/reactjs-food-order-just-UI/static/js/2.1e8de4ec.chunk.js.LICENSE.txt",
+    "static/js/2.11b1d135.chunk.js.LICENSE.txt": "/reactjs-food-order-just-UI/static/js/2.11b1d135.chunk.js.LICENSE.txt",
     "static/media/img1.f89a9688.avif": "/reactjs-food-order-just-UI/static/media/img1.f89a9688.avif",
     "static/media/img2.056624d0.avif": "/reactjs-food-order-just-UI/static/media/img2.056624d0.avif",
     "static/media/img3.b8d5b60a.avif": "/reactjs-food-order-just-UI/static/media/img3.b8d5b60a.avif",
@@ -17,9 +17,9 @@
     "static/media/index.css": "/reactjs-food-order-just-UI/static/media/injera.532792a6.avif"
   },
   "entrypoints": [
-    "static/js/runtime-main.df42ddf6.js",
-    "static/js/2.1e8de4ec.chunk.js",
+    "static/js/runtime-main.424ebaa1.js",
+    "static/js/2.11b1d135.chunk.js",
     "static/css/main.b5701116.chunk.css",
-    "static/js/main.aafb9d92.chunk.js"
+    "static/js/main.9dfdede2.chunk.js"
   ]
 }
