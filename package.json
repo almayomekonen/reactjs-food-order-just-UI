@@ -1,6 +1,6 @@
 {
-  "homepage": "https://almayomekonen.github.io/reactjs-food-order-just-UI",
-  "name": "react-complete-guide",
+  "homepage": "/reactjs-food-order-just-UI/",
+  "name": "restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
