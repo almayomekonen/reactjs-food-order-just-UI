@@ -1,32 +1,52 @@
-import { useContext } from 'react';
-
+import { useContext, useState } from 'react';
 import MealItemForm from './MealItemForm';
 import classes from './MealItem.module.css';
 import CartContext from '../../../store/cart-context';
 
-const MealItem = (props) => {
+const MealItem = ({ id, name, image, description, price }) => {
   const cartCtx = useContext(CartContext);
+  const formattedPrice = `₪${price.toFixed(2)}`;
+  
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const price = `₪${props.price.toFixed(2)}`;
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
 
   const addToCartHandler = amount => {
     cartCtx.addItem({
-      id: props.id,
-      name: props.name,
+      id: id,
+      name: name,
+      image: image,
       amount: amount,
-      price: props.price
+      price: price
     });
   };
 
   return (
     <li className={classes.meal}>
       <div>
-        <h3>{props.name}</h3>
-        <div className={classes.description}>{props.description}</div>
-        <div className={classes.price}>{price}</div>
+        <h3>{name}</h3>
+        <img src={image} alt={name} onClick={togglePopup} />
+        {!isPopupOpen && (
+          <div className={classes.mealDetails}>
+            <div className={classes.description}>{description}</div>
+            <div className={classes.price}>{formattedPrice}</div>
+          </div>
+        )}
+        {isPopupOpen && (
+          <div className={classes.popup}>
+            <div className={classes.popupContent}>
+              <h3>{name}</h3>
+              <p>{description}</p>
+              <p className={classes.price}>{formattedPrice}</p>
+              <button onClick={togglePopup}>Close</button>
+            </div>
+          </div>
+        )}
       </div>
       <div>
-        <MealItemForm id={props.id} onAddToCart={addToCartHandler} />
+        <MealItemForm id={id} onAddToCart={addToCartHandler} />
       </div>
     </li>
   );

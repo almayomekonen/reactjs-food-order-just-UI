@@ -1,22 +1,60 @@
 .meal {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
+  cursor: pointer;
 }
 
-.meal h3 {
-  margin: 0 0 0.25rem 0;
+.meal img {
+  width: 200px;
+  margin: 0 auto;
 }
 
-.description {
-  font-style: italic;
+.description, .price {
+  display: none;
 }
 
-.price {
-  margin-top: 0.25rem;
-  font-weight: bold;
-  color: #ad5502;
-  font-size: 1.25rem;
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.popupContent {
+  text-align: center;
+}
+
+.popupContent h3 {
+  margin-top: 0;
+}
+
+.popupContent button {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .meal img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .description, .price {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .description, .price {
+    display: block;
+  }
 }
